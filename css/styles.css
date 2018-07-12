@@ -1,0 +1,20 @@
+.my-shared-class {
+  padding-top:20px;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1200px) {
+  .my-shared-class {
+    padding-top:60px;
+    padding-bottom:60px;
+  }
+  .my-class-1 {
+    background:red;
+  }
+}
